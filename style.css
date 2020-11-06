@@ -1,3 +1,39 @@
 .nav-bar {
-    color: green;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(126, 223, 126);
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    position: fixed;
 }
+
+li a:hover {
+    background-color: rgb(26, 165, 14);
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: darkgreen;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+}
+
+li a:hover:not(.nav-bar); {
+    background-color: darkgreen;
+}
+
+
+#top-bar {
+    float: right;
+    border-right: 1px solid rgb(187, 187, 187);
+}
+
+
