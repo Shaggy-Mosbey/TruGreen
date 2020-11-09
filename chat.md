@@ -1,3 +1,11 @@
+what is the first thing we need to do?
+
+
+
+
+
+
+
 https://www.oldhouseonline.com/.image/t_share/MTQ0NjMzNDk0Nzk3MDM1MDQ2/trugreen-logo.jpg
 https://metova2018.wpengine.com/wp-content/uploads/2018/11/leaf-logo@3x.png
 
@@ -86,3 +94,5 @@ li a:hover:not(.nav-bar); {
     float: left;
     background-color: rgb(255, 255, 255);
 } 
+
+
