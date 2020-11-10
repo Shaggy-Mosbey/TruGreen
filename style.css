@@ -31,6 +31,19 @@ li a:hover:not(.nav-bar); {
 }
 
 
+.cut {
+    font-size: 150px;
+    color: darkred;
+    font-family: Helvetica;
+    font-style: italic;
+    background-color: cyan; 
+    text-align: center;
+    text-decoration-line: none;
+}
+
+
+
+
 #top-bar {
     float: right;
     border-right: 1px solid rgb(187, 187, 187);
@@ -42,8 +55,17 @@ li a:hover:not(.nav-bar); {
 }
 
 .start-thing {
-    background-image:url("https://images.squarespace-cdn.com/content/v1/50a39d4ce4b0f822f291399c/1581619086328-6DYHH0POJY2NL8OLKMA6/ke17ZwdGBToddI8pDm48kIPMjyAxYAbEcFTs8zCKKJJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0qN_-Z3B7EvygvPOPmeOryX1pkXg-pKyyA7MDP6ZuEHmJuzC89-qxFpXVqq6ylzIAA/P1040430.jpeg?format=2500w");
+    image-resolution: 3000dpi;
+    background-image:url("https://www.groundsguys.com/images/blog/GUY-BLOG-Bermuda-Grass-Care-0418.jpg");
     background-repeat: no-repeat;
-    background-size: 2000px 550px;
+    background-size: 100%;
+    background-position: center;
+}
 
+.title {
+    color:white;
+}
+
+.perfection {
+    height: 500px;
 }
