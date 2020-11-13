@@ -8,73 +8,107 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="style.css">
+<head>
+  <link rel="shortcut icon" href="https://trugreenmidsouth.com/wp-content/uploads/2018/10/trugreen-learning-center.jpg">
+</head>
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-anchor,.fa-coffee {font-size:200px}
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Lato", sans-serif
+  }
+
+  .w3-bar,
+  h1,
+  button {
+    font-family: "Montserrat", sans-serif
+  }
 </style>
+
 <body>
 
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar  w3-card w3-left-align w3-large navbar">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large  navbar" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="services.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">Services</a>
-    <a href="examples.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">Examples</a>
-    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">About Us</a>
-    <a href="locate.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">Find Us</a>
-    <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">Contact Us</a>
-  </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large navbar">
-    <a href="services.html" class="w3-bar-item w3-button w3-padding-large">Services</a>
-    <a href="examples.html" class="w3-bar-item w3-button w3-padding-large">Examples</a>
-    <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About Us</a>
-    <a href="locate.html" class="w3-bar-item w3-button w3-padding-large">Find Us</a>
-    <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
-  </div>
-</div>
-
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-third w3-center">
-      <i class="w3-padding-64 w3-text-red w3-margin-right"></i>
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar  w3-card w3-left-align w3-large navbar">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large  navbar"
+        href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+      <a href="services.html"
+        class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">Services</a>
+      <a href="examples.html"
+        class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">Examples</a>
+      <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">About
+        Us</a>
+      <a href="locate.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">Find
+        Us</a>
+      <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">Contact
+        Us</a>
     </div>
 
-    <div class="w3-twothird">
-      <h1>Contact</h1>
-      <h5 class="w3-padding-32">Contact</h5>
-
-      <p class="w3-text-grey">Phone Number: 662-330-1330</p>
-      <p class="w3-text-grey"></p>
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large navbar">
+      <a href="services.html" class="w3-bar-item w3-button w3-padding-large">Services</a>
+      <a href="examples.html" class="w3-bar-item w3-button w3-padding-large">Examples</a>
+      <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About Us</a>
+      <a href="locate.html" class="w3-bar-item w3-button w3-padding-large">Find Us</a>
+      <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
     </div>
   </div>
-</div>
 
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h1>Stuff</h1>
-      
-    <form action="submit.html">
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" value=""><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" value=""><br><br>
-    <input type="submit" value="Submit">
-    </form>
+  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+    <div class="w3-content">
+      <div class="w3-third w3-center">
+        <i class="w3-padding-64 w3-text-red w3-margin-right"></i>
+      </div>
 
-    </div>
+      <div class="w3-twothird">
+        <h1>Contact</h1>
+        <h5 class="w3-padding-32">Contact</h5>
 
-    <div class="w3-third w3-center">
-      <img src="" class="w3-padding-64 w3-text-red perfection"></img>
+        <p class="w3-text-grey">Phone Number: 662-330-1330</p>
+        <p class="w3-text-grey"></p>
+      </div>
     </div>
   </div>
-</div>
- 
-  
+
+  <div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+      <div class="w3-twothird">
+        <h1>Information</h1>
+
+        <form action="submit.html">
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" placeholder="Jane" autofocus required><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" placeholder="Doe" autofocus required><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" placeholder="myname@example.com" autofocus required><br>
+          <label for="phone"></label>Phone Number:</label><br>
+          <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" pattern="[A-Za-z]{9}" autofocus required><br>
+          <label for="aname"></label>Address</label><br>
+          <input type="text" id="aname" name="aname" placeholder="Optional" autofocus><br>
+          <label for="cname"></label>City</label><br>
+          <input type="text" id="cname" name="cname" autofocus required><br>
+          <label for="sname"></label>State</label><br>
+          <input type="text" id="sname" name="sname" autofocus required><br><br>
+          <input type="submit" value="Submit">
+        </form>
+
+      </div>
+
+      <div class="w3-third w3-center">
+        <img src="" class="w3-padding-64 w3-text-red perfection"></img>
+      </div>
+    </div>
+  </div>
+
+
+
+
 </body>
 
 </html>
