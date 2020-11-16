@@ -1,4 +1,4 @@
-.nav-bar {
+sss.nav-bar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -26,7 +26,9 @@ li {
     float: left;
 }
 
-li a:hover:not(.nav-bar); {
+li a:hover:not(.nav-bar);
+
+    {
     background-color: darkgreen;
 }
 
@@ -36,7 +38,7 @@ li a:hover:not(.nav-bar); {
     color: darkred;
     font-family: Helvetica;
     font-style: italic;
-    background-color: cyan; 
+    background-color: cyan;
     text-align: center;
     text-decoration-line: none;
 }
@@ -49,23 +51,34 @@ li a:hover:not(.nav-bar); {
     border-right: 1px solid rgb(187, 187, 187);
 }
 
-.navbar{
+.navbar {
     background-color: rgb(26, 165, 14);
     color: white;
 }
 
 .start-thing {
     image-resolution: 3000dpi;
-    background-image:url("https://www.groundsguys.com/images/blog/GUY-BLOG-Bermuda-Grass-Care-0418.jpg");
+    background-image: url("https://www.groundsguys.com/images/blog/GUY-BLOG-Bermuda-Grass-Care-0418.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
 }
 
 .title {
-    color:white;
+    color: white;
 }
 
 .perfection {
     height: 500px;
+}
+
+::selection {
+    color: white;
+    background: rgb(26, 165, 14);
+}
+
+.something {
+    background-image: url("https://trugreenmidsouth.com/wp-content/uploads/2019/12/beautiful-Lawn-in-Oxford-MS-by-TruGreen.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
 }
