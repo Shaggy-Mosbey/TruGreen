@@ -28,7 +28,7 @@ li {
 
 li a:hover:not(.nav-bar);
 
-    {
+li  {
     background-color: darkgreen;
 }
 
@@ -82,3 +82,4 @@ li a:hover:not(.nav-bar);
     background-size: 50%;
     background-repeat: no-repeat;
 }
+
