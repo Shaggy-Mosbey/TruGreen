@@ -79,7 +79,18 @@ li  {
 
 .something {
     background-image: url("https://trugreenmidsouth.com/wp-content/uploads/2019/12/beautiful-Lawn-in-Oxford-MS-by-TruGreen.jpg");
-    background-size: 50%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
+.facebook {
+    color: blue;
+}
+
+.pinterest {
+    color: #ff5100;
+}
+
+.twitter {
+    color: #00a2ff;
+}
