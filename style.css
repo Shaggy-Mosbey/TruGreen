@@ -26,10 +26,12 @@ li {
     float: left;
 }
 
-li a:hover:not(.nav-bar);
+li a:hover:not(.nav-bar)
 
-li  {
-    background-color: darkgreen;
+.gween,
+.w3-hover-gween:hover {
+    color: #fff !important;
+    background-color: rgb(26, 165, 14) !important
 }
 
 
