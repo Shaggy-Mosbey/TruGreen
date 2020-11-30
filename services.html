@@ -8,66 +8,120 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="style.css">
+
 <head>
   <link rel="shortcut icon" href="https://trugreenmidsouth.com/wp-content/uploads/2018/10/trugreen-learning-center.jpg">
 </head>
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Lato", sans-serif
+  }
+
+  .w3-bar,
+  h1,
+  button {
+    font-family: "Montserrat", sans-serif
+  }
+  .none {
+    list-style-type: none;
+  }
 </style>
+
 <body>
 
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar  w3-card w3-left-align w3-large navbar">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large  navbar" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="services.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">Services</a>
-    <a href="examples.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">Examples</a>
-    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">About Us</a>
-    <a href="locate.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">Find Us</a>
-    <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">Contact Us</a>
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar  w3-card w3-left-align w3-large navbar">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large  navbar"
+        href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+      <a href="services.html"
+        class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">Services</a>
+      <a href="examples.html"
+        class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">Examples</a>
+      <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">About
+        Us</a>
+      <a href="locate.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">Find
+        Us</a>
+      <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white navbar">Contact
+        Us</a>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large navbar">
+      <a href="services.html" class="w3-bar-item w3-button w3-padding-large">Services</a>
+      <a href="examples.html" class="w3-bar-item w3-button w3-padding-large">Examples</a>
+      <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About Us</a>
+      <a href="locate.html" class="w3-bar-item w3-button w3-padding-large">Find Us</a>
+      <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+    </div>
   </div>
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large navbar">
-    <a href="services.html" class="w3-bar-item w3-button w3-padding-large">Services</a>
-    <a href="examples.html" class="w3-bar-item w3-button w3-padding-large">Examples</a>
-    <a href="about.html" class="w3-bar-item w3-button w3-padding-large">About Us</a>
-    <a href="locate.html" class="w3-bar-item w3-button w3-padding-large">Find Us</a>
-    <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
-  </div>
+
+  <div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>PRICING</h2>      
+    <p>Choose a pricing plan that fits your needs.</p><br>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="none">  
+      <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="none">  
+      <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="none">  
+      <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large"><i class="fa fa-check"></i> Sign Up</button>
+        </li>
+      </ul>
+    </div>
 </div>
-  
 
-
-<!--Typing skills bi-otch, plus i was seeing if you were still there-->
-<!--haha... im doing research to see what we can put for info in the h tags-->
-<!--ah i see, well good job, oh and im sorry that your vs code doesnt work right...-->
-<!--how do you it doesnt work right????? Did you see how??yeah-->
+  <!--Typing skills bi-otch, plus i was seeing if you were still there-->
+  <!--haha... im doing research to see what we can put for info in the h tags-->
+  <!--ah i see, well good job, oh and im sorry that your vs code doesnt work right...-->
+  <!--how do you it doesnt work right????? Did you see how??yeah-->
 
 
 
-<footer class="w3-container w3-padding-64 w3-center w3-light-grey">
-  <div class="w3-xlarge w3-padding-32">
-    <a href="https://www.facebook.com/trugreenmidsouthbatonrouge/" target="_blank" style="text-decoration: none;" class="fa fa-facebook-official facebook w3-hover-opacity"></a>
-    <a href="https://www.pinterest.com/pin/267471665359151494/" target="_blank" style="text-decoration: none;" class="fa fa-pinterest-p pinterest w3-hover-opacity"></a>
-    <a href="https://twitter.com/lawnsbytrugreen?lang=en" style="text-decoration: none;" target="_blank" class="fa fa-twitter twitter w3-hover-opacity"></a>
-  </div>
-  <p>Made by <a href="fun.html" target="_blank">JPJ.com</a></p>
-</footer>
+  <footer class="w3-container w3-padding-64 w3-center w3-light-grey">
+    <div class="w3-xlarge w3-padding-32">
+      <a href="https://www.facebook.com/trugreenmidsouthbatonrouge/" target="_blank" style="text-decoration: none;"
+        class="fa fa-facebook-official facebook w3-hover-opacity"></a>
+      <a href="https://www.pinterest.com/pin/267471665359151494/" target="_blank" style="text-decoration: none;"
+        class="fa fa-pinterest-p pinterest w3-hover-opacity"></a>
+      <a href="https://twitter.com/lawnsbytrugreen?lang=en" style="text-decoration: none;" target="_blank"
+        class="fa fa-twitter twitter w3-hover-opacity"></a>
+    </div>
+    <p>Made by <a href="fun.html" target="_blank">JPJ.com</a></p>
+  </footer>
 
-<script>
-  //to be honest i stole this one from w3-schools...
-  function myFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-      x.className += " w3-show";
-    } else {
-      x.className = x.className.replace(" w3-show", "");
+  <script>
+    //to be honest i stole this one from w3-schools...
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
     }
-  }
-</script>
+  </script>
 
 </body>
 
