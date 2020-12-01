@@ -96,3 +96,15 @@ li a:hover:not(.nav-bar)
 .twitter {
     color: #00a2ff;
 }
+
+.bg-left-margin {
+    background-color: green;
+}
+
+.odds {
+    background-color: white;
+}
+
+.evens {
+    background-color: green;
+}
