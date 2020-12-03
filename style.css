@@ -108,3 +108,7 @@ li a:hover:not(.nav-bar)
 .evens {
     background-color: green;
 }
+
+h6 {
+    font-family: "Lato", sans-serif
+  }
