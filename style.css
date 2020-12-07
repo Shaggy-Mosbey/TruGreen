@@ -112,3 +112,11 @@ li a:hover:not(.nav-bar)
 h6 {
     font-family: "Lato", sans-serif
   }
+
+.includes {
+    color: green;
+}
+
+.doesnt-include {
+    color: red;
+}
