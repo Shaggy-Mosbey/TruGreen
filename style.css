@@ -120,3 +120,19 @@ h6 {
 .doesnt-include {
     color: red;
 }
+
+.sign-up {
+    position: absolute;
+    left: 650px;
+    color: black;
+}
+
+.lefty {
+    position: absolute;
+    left: 100px;
+}
+
+.righty {
+    position: absolute;
+    right: 100px;
+}
