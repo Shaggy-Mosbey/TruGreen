@@ -40,6 +40,74 @@
       background-color: rgb(12, 173, 1);
       color: white;
     }
+
+    .slideshow-container {
+      position: relative;
+      background: #f1f1f1;
+    }
+
+    .slides {
+      display: none;
+      padding: 80px;
+      text-align: center;
+    }
+
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -30px;
+      padding: 16px;
+      color: #888;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+
+    .next {
+      position: absolute;
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+    }
+
+    .dot-container {
+      text-align: center;
+      padding: 20px;
+      background: #ddd;
+    }
+
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: backround-color 0.6 ease;
+    }
+
+    .active,
+    .dot:hover {
+      background-color: #717171;
+    }
+
+    q {
+      font-style: italic;
+    }
+
+    .maker {
+      color: lightskyblue;
+    }
   </style>
 </head>
 
@@ -84,12 +152,14 @@
     <div class="w3-row-padding w3-padding-64 w3-container">
       <div class="w3-content">
         <div class="w3-twothird">
-          <h1>TruGreen</h1>
-          <h5 class="w3-padding-32">TruGreen is here to make your lawn look better than ever before. We promise to do
-            our best on every yard. If we do not make it perfect the first time then we will redo your yard for
-            freeeeeeeeeeeee!!!!!!</h5>
+          <h1>Meet us</h1>
+          <h5 class="w3-padding-32">TruGreen is a lawn, tree and shrub care company that delivers environmentally
+            responsible solutions to clients throughout the East Coast. As a locally owned and operated business, we
+            know southern landscapes. We leverage our extensive insight into regional weather patterns, growing
+            conditions, and soil composition to create customized strategies that beautify and strengthen your property
+            with sustainable results.</h5>
 
-          <p>Thats the TruGreen guarantee according to Clay-ton</p>
+          <p><a href="about.html">Meet our team here</a></p>
         </div>
 
         <div class="w3-third w3-center">
@@ -102,15 +172,16 @@
     <!--Second Grid-->
     <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
       <div class="w3-content">
-        <div class="w3-third w3-center">
-          <img src="https://www.brightbits.co/wp-content/uploads/2019/05/lipsum.png"
-            class="w3-padding-64 w3-text-red w3-margin-right" height="300px"></i>
-        </div>
+
 
         <div class="w3-twothird">
-          <h1>Lorem Ipsum <--What does that even mean?</h1> <h5 class="w3-padding-32">2</h5>
+          <h1>What we offer</h1>
+          <h5 class="w3-padding-32">We offer a variety of lawncare plans to fulfill your needs. These include Tree &
+            Shrub, Mosquito, Pest Control, and of course, Lawn Care.</h5>
 
-              <p>Paragraph for 2</p>
+          <p><a href="services.html">See here for plans</a></p>
+          <p><a href="https://www.trugreen.com">See here for more options</a></p>
+          <p><a href="https://www.trugreenmidsouth.com/services/">See here for local options</a></p>
         </div>
       </div>
     </div>
@@ -119,16 +190,18 @@
     <div class="w3-row-padding w3-padding-64 w3-container">
       <div class="w3-content">
         <div class="w3-twothird">
-          <h1>Change later</h1>
-          <h5 class="w3-padding-32">Dont mind the latin</h5>
+          <h1>Standalone Facilities</h1>
+          <h5 class="w3-padding-32">TruGreen Midsouth isn't a one-person/one-truck operation. We have fully functional
+            office buildings outfitted with the state-of-the-art industrial equipment needed to maintain the very
+            highest operational standards and quality control measures. From storing our lawn care products to
+            effectively disposing of various chemicals, TruGreen's facilities ensure we are always doing our part to
+            remain environmentally conscious at all times.
+            Most importantly, at TruGreen Midsouth, we are fully committed to customer service excellence throughout
+            every project engagement. If you're not completely satisfied with our turf and pest applications, simply let
+            us know. We will work with you until we meet your expectations or refund the cost of the last service –
+            that's our guarantee!</h5>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p></p>
         </div>
 
         <div class="w3-third w3-center">
@@ -139,23 +212,22 @@
     </div>
 
     <!--Fourth Grid-->
-    <div class="w3-row-padding w3-padding-64 w3-container w3-light-grey">
-      <div class="w3-content">
-        <div class="w3-twothird">
-          <h1>HEY</h1>
-          <h5 class="w3-padding-32">AHOI AHOI AH NO SORA</h5>
+    <div class=" slideshow-container">
 
-          <p>im pretty sure</p>
-        </div>
+          <div class="myslides">
+            <q>I liked the analysis telling me exactly what my yard needs.</q>
+            <p class="maker">Pansy H.</p>
+          </div>
 
-        <div class="w3-third w3-center">
-          <img src="" class="w3-padding-64 w3-text-red perfection"></img>
+          <div class="myslides">
+            <q>Ronald Byrd was my technician today.He was very knowable, caring and patient.He answered all my questions and thoroughly educated me on options to further enhance my yard. I have had other yard professionals however none spent time with me like Ronald.</q>
+            <p class="maker">Cheryl B.</p>
+          </div>
         </div>
-      </div>
     </div>
 
     <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-      <h1 class="w3-margin w3-xlarge">Quote of the day: We got one week</h1>
+      <h1 class="w3-margin w3-xlarge">Live Life Outside</h1>
     </div>
 
     <!-- Footer -->
